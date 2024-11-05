@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view width="auto" height="auto">
+
+  <linear x="0" y="0"
+    width="auto" height="auto"
+    minWidth="210"
+    enabled="true"
+    orientation="vertical"
+    background="composing_window_background.png"
+    backgroundMode="stretch"
+    backgroundBorder="16, 16, 16, 16"
+    cursor="sizeall">
+
+    <div height="3"/>
+
+    <linear x="0" width="100%" height="auto" orientation="horizontal">
+
+      <div width="3"/>
+
+      <composition name="composition"
+        width="auto" height="auto"
+        active_font="Arial"
+        inactive_font="Arial"
+        highlight_font="Arial"
+        converted_font="SimSun"
+        active_size="12"
+        inactive_size="12"
+        highlight_size="12"
+        converted_size="12"
+        active_color="#000000"
+        inactive_color="#666666"
+        highlight_color="#0000ff"
+        converted_color="#000000"
+        active_bold="true"
+        inactive_bold="true"
+        highlight_bold="true"
+        caretwidth="1.0"
+        caretcolor="#3AB8FC"
+        minHeight="15"/>
+
+      <div width="30" linearLayoutDir="backward"/>
+
+      <label name="help_message" y="1" size="8" color="#7F7F7F" linearLayoutDir="backward"/>
+
+      <div width="20" linearLayoutDir="backward"/>
+
+    </linear>
+
+    <linear x="0" width="100%" height="auto" enabled="true"
+      orientation="horizontal">
+
+      <div width="3" />
+
+      <candidatelist name="candidate_list"
+        candidateFont="SimSun"
+        candidateSize="12"
+        candidateColor="#000000"
+        selectedCandidateColor="#000000"
+        candidateMenuWidth="7"
+        candidateMenuHeight="11"
+        candidateMenuIcon="resource://candidate_menu.png"
+        candidateMenuDownIcon="resource://candidate_menu_down.png"
+        candidateMenuOverIcon="resource://candidate_menu_over.png"
+        selectedCandidateMenuicon="resource://selected_candidate_menu.png"
+        selectedCandidateMenuOverIcon="resource://selected_candidate_menu_over.png"
+        selectedcandidateMenuDownIcon="resource://selected_candidate_menu_down.png"
+        selectionImage="candidate_selection.png"
+        selectionImageOnTop="false"
+        selectionImageMargin="3, 3, 0, 0"
+        selectionImageStretchBorder="3, 3, 4, 3"
+        horizontalPadding="6"
+        verticalPadding="4"
+        orientation="horizontal"/>
+
+      <div width="20" linearLayoutDir="backward"/>
+
+    </linear>
+
+    <div height="9"/>
+
+  </linear>
+
+</view>
+

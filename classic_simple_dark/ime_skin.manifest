@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ime_skin minimumGoogleImeSkinVersion="1.0.0.0">
+  <about>
+    <name>&SKIN_NAME;</name>
+    <description>&SKIN_DESCRIPTION;</description>
+    <aboutText>&SKIN_ABOUT;</aboutText>
+    <smallIcon></smallIcon>
+    <icon></icon>
+    <version>1.0.0.0</version>
+    <author>Google</author>
+    <authorWebsite>
+      http://www.google.com/intl/zh-CN/ime/pinyin/
+    </authorWebsite>
+    <id>43986103-4FBC-4F0E-9085-24ACD8A8E13B</id>
+    <copyright>
+      MIT
+    </copyright>
+    <authorEmail></authorEmail>
+    <category>_classic</category>
+  </about>
+</ime_skin>

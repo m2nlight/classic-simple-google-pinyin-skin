@@ -14,7 +14,7 @@
 
     <div height="3"/>
 
-    <linear x="0" width="100%" height="25" orientation="horizontal">
+    <linear x="0" width="100%" height="auto" orientation="horizontal">
 
       <div width="3"/>
 
@@ -28,10 +28,10 @@
         inactive_size="12"
         highlight_size="12"
         converted_size="12"
-        active_color="#000000"
+        active_color="#ffffff"
         inactive_color="#666666"
         highlight_color="#0000ff"
-        converted_color="#000000"
+        converted_color="#ffffff"
         active_bold="true"
         inactive_bold="true"
         highlight_bold="true"
@@ -55,8 +55,8 @@
       <candidatelist name="candidate_list"
         candidateFont="SimSun"
         candidateSize="12"
-        candidateColor="#000000"
-        selectedCandidateColor="#000000"
+        candidateColor="#ffffff"
+        selectedCandidateColor="#ffffff"
         candidateMenuWidth="7"
         candidateMenuHeight="11"
         candidateMenuIcon="resource://candidate_menu.png"
